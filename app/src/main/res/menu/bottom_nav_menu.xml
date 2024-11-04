@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_list"
+        android:title="Danh sách"/>
+    <item
+        android:id="@+id/nav_detail"
+        android:title="Thông tin"/>
+    <item
+        android:id="@+id/nav_search_stat"
+        android:title="Tìm kiếm và Thống kê"/>
+</menu>

@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_text_date_range"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Từ tháng/năm đến tháng/năm" />
+
+    <CheckBox
+        android:id="@+id/checkbox_vn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Việt Nam" />
+
+    <CheckBox
+        android:id="@+id/checkbox_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toàn bộ thế giới" />
+
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tìm kiếm" />
+</LinearLayout>
